@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost\AppHost\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "AppHost\ServiceDefaults\ServiceDefaults.csproj", "{88BE8EBA-109E-42F1-98CB-41745F26F733}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UIs", "UIs", "{62A4FD60-9A51-42A3-92AF-2678D887B9BF}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "tango-ui", "UIs\tango-ui\tango-ui.esproj", "{3D7A3B51-6FED-3360-81C4-F95A5F034D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,12 @@ Global
 		{88BE8EBA-109E-42F1-98CB-41745F26F733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88BE8EBA-109E-42F1-98CB-41745F26F733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88BE8EBA-109E-42F1-98CB-41745F26F733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +81,7 @@ Global
 		{8525B8C9-1FE2-4F1F-9988-BD4515BB7762} = {91BFF157-3A71-4B27-91C7-21116F26D6A8}
 		{5DF5EF60-E447-4401-AA1F-2E18F1C6B987} = {170600AB-1A9B-4E03-A51F-E75EEC7F5618}
 		{88BE8EBA-109E-42F1-98CB-41745F26F733} = {170600AB-1A9B-4E03-A51F-E75EEC7F5618}
+		{3D7A3B51-6FED-3360-81C4-F95A5F034D57} = {62A4FD60-9A51-42A3-92AF-2678D887B9BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {233CAF5E-5E82-47A0-A16E-005122D4DE06}
