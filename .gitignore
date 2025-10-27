@@ -12,3 +12,5 @@ obj/
 
 # Ignore assembly info cache files
 *.AssemblyInfo.cs
+/CarBookings/.vs/CarBookings/CopilotIndices/17.14.1147.5054/CodeChunks.db
+/CarBookings/.vs/CarBookings/CopilotIndices/17.14.1147.5054/SemanticSymbols.db

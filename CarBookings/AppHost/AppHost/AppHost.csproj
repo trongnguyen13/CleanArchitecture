@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\APIs\PublicAPI\PublicAPI.csproj" />
     <ProjectReference Include="..\..\APIs\TangoAPI\TangoAPI.csproj" />
+    <ProjectReference Include="..\..\Hangfire\HangfireServer\HangfireServer.csproj" />
   </ItemGroup>
 
 </Project>
